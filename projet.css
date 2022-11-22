@@ -1,0 +1,111 @@
+* {
+    font-size: 22px;
+}
+
+h1 {
+    color: seashell;
+    background-color: #175778;
+}
+
+.img1 {
+    margin-left: 500px;
+}
+
+.img2 {
+    margin-left: 800px;
+}
+
+.breadcrumb {
+    text-align: left;
+  }
+  
+  .breadcrumb li {
+    display: block;
+	float: left;
+	height: 120px;
+	text-align: center;
+	padding: 30px 40px 0 80px;
+	position: relative;
+	margin: 0 100px 0 0; 
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+  }
+
+  .breadcrumb li.box4::after {
+    content: "";  
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left: 80px solid #2FB5F7;
+	position: absolute; right: -80px; top: 0; bottom: 0;
+}
+
+.breadcrumb li.box5::after {
+    content: "";  
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left: 80px solid #3B6378;
+	position: absolute; right: -80px; top: 0; bottom: 0;
+}
+
+.breadcrumb li.box6::after {
+    content: "";  
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left: 80px solid #2692C7;
+	position: absolute; right: -80px; top: 0; bottom: 0;
+}
+
+.breadcrumb li::before {
+    content: "";  
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left: 80px solid #ffffff;
+	position: absolute; left: 0; top: 0; bottom: 0;
+}
+
+.box4, .box4 ::after {
+	background-color: #2FB5F7;
+}
+
+.box5, .box4 ::after {
+	background-color: #3B6378;
+}
+
+.box6, .box4 ::after {
+	background-color: #2692C7;
+}
+
+.box1 {
+    width: 600px;
+    padding: 10px; 
+    margin: 20px; 
+    border-radius: 10px;
+    align-items: center;
+    color: #fff;
+    background-color: #2FB5F7;
+}
+
+.box2 {
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 300px; 
+    border-radius: 10px;
+    align-items: center;
+    width: 600px;
+    color: #fff;
+    background-color: #3B6378;
+}
+
+.box3 {
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 600px;
+    border-radius: 10px;
+    align-items: center;
+    width: 600px;
+    color: #fff;
+    background-color: #2692C7;
+}

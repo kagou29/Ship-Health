@@ -1,0 +1,61 @@
+* {
+    font-size: 22px;
+}
+
+h1 {
+    color: #006AA8;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #006AA8;
+}
+
+.titre {
+    text-align: center;
+    border-bottom: 2px solid #006AA8;
+}
+
+.prelude {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.building {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.building img {
+    margin: 20px;
+}
+
+.dream {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.dream img {
+    margin: 20px;
+}
+
+.leave {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.leave img {
+    margin: 20px;
+}
+

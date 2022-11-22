@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+#page {
+  width: 1900px;
+}
+
+#header {
+    display: block;
+    margin: 0px;
+    background-image: url(photo/voilier.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid seashell;
+    height: 850px;
+}
+
+  .container img{
+    position: relative;
+    align-self: center;
+    top: 10px;
+    border-radius: 50%;
+    margin-left: 50px;
+    padding: 20px 10px;
+  }
+
+.banner {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 80px;
+    border: 1px solid seashell;
+    background-color: #F2A946;
+  }
+
+  .objet h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+    color: #006AA8;
+  }
+
+  .menu {
+    margin-right: 40px;
+  }
+
+  .menu li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .menu li+li::before {
+    padding: 0px;
+    content: "";
+  }
+  
+  .menu li a {
+    color: #006AA8;
+    font-size: larger;
+  }
+  
+  .ship {
+    margin-top: 3px;
+    margin-bottom: 0px;
+  }
+
+  .contact {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 418px;
+    height: 80px;
+    border: 1px solid seashell;
+    background-color: #F2A946;
+  }
+
+  .network {
+    display:flex;
+    align-items: center;
+  }
+
+.adhesion {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.adhesion p {
+  color: #006AA8;
+}
+
+
+  .contacts {
+    background-color: #F2A946;
+    margin-left: 20px;
+  }
+
+  .icons li {
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    * {
+      font-size: 0.8rem;
+    }
+    #header {
+      height: 500px;
+    }
+    #page {
+      width: 1024px;
+      height: 600px;
+    }
+    .container img {
+      top: 30px;
+      margin-left: 25px;
+      width: 300px;
+    }
+    .ship img {
+      height: 75px;
+    }
+    .banner {
+      height: 75px;
+    }
+    .objet h1 {
+      font-size: 30px;
+    }
+    .contact {
+      margin-top: 215px;
+      height: 75px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    * {
+      font-size: 0.8rem;
+    }
+    #header {
+      height: 500px;
+    }
+    #page {
+     background-size: cover;
+    }
+    .container img {
+      top: 30px;
+      margin-left: 25px;
+      width: 300px;
+    }
+    .ship img {
+      height: 75px;
+    }
+    .banner {
+      height: 75px;
+    }
+    .objet h1 {
+      font-size: 30px;
+    }
+    .contact {
+      margin-top: 215px;
+      height: 75px;
+    }
+  }
+
+ 

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+#page {
+    background-color: #006AA8;
+}
+
+.dessin {
+    display: flex;
+    margin-left: 50px;
+    margin: 10px;
+}
+
+.dessin img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.thinking img {
+    width: 200px;
+    height: auto;
+}
+
+.math {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin: 10px;
+}
+
+p {
+    font-family: 'The Nautigal', cursive;
+    font-size: 45px;
+    color: seashell;
+}
+
+.reunion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.beaver {
+    display: flex;
+    align-items: center;
+}
+
+.beaver img {
+    width: 200px;
+    height: auto;
+}
